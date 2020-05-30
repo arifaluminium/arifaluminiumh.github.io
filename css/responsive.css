@@ -1,0 +1,129 @@
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1169px) {
+  /*.mobile-area{
+	display:block;
+}*/
+}
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+  .heder-manu .manu-nav li {
+    padding: 0px 5px;
+    font-size: 16px;
+  }
+}
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+  .container {
+    width: 300px;
+  }
+
+  .heder-manu .manu-nav li {
+    padding: 0px 5px;
+    font-size: 16px;
+  }
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .container {
+    width: 450px;
+  }
+
+  .heder-manu .manu-nav {
+    float: right;
+  }
+
+  .heder-manu .manu-nav li {
+    padding: 0px 5px;
+    font-size: 16px;
+  }
+
+  .mobile-area {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 250px) and (max-width: 425px) {
+  .container-fluid {
+    display: contents;
+  }
+
+  .liccon {
+    padding-top: 2px;
+  }
+
+  .liccon h5 {
+    /* padding-top: 2px; */
+    font-size: 11px;
+  }
+
+  .heder-manu .manu-nav li {
+    padding: 0px 5px;
+    font-size: 16px;
+  }
+
+  .heder-manu .icon img {
+    height: 50px;
+    padding-top: 5px;
+    width: auto;
+  }
+
+  .kitchen .owl-nav,
+  .smallkitchen .owl-nav,
+  .windowdivarea .owl-nav,
+  .boxdivarea .owl-nav,
+  .doordivarea .owl-nav,
+  .curtaindivarea .owl-nav,
+  .safetdivarea .owl-nav,
+  .stairdivarea .owl-nav {
+    top: 60%;
+  }
+
+  .pad60 {
+    padding: 14px 0px;
+  }
+
+  .kitchen .kitimg p,
+  .smallkitchen .kitimg p,
+  .windowdivarea .windowdiv p,
+  .boxdivarea .boxdiv p,
+  .doordivarea .doordiv p,
+  .curtaindivarea .curtaindiv p,
+  .safetdivarea .safetdiv p,
+  .stairdivarea .stairdiv p {
+    font-size: 10px;
+  }
+
+  /* nav  position */
+  .kitchen .owl-nav {
+    left: 10%;
+    top: 60%;
+  }
+
+  .smallkitchen .owl-nav,
+  .windowdivarea .owl-nav,
+  .boxdivarea .owl-nav,
+  .doordivarea .owl-nav,
+  .curtaindivarea .owl-nav,
+  .safetdivarea .owl-nav,
+  .stairdivarea .owl-nav {
+    left: 10%;
+    top: 80%;
+  }
+
+  /* owl dots */
+  .owltow .owl-dots,
+  .owlthree .owl-dots,
+  .kitchen .owl-dots,
+  .smallkitchen .owl-dots,
+  .windowdivarea .owl-dots,
+  .boxdivarea .owl-dots,
+  .doordivarea .owl-dots,
+  .curtaindivarea .owl-dots,
+  .safetdivarea .owl-dots,
+  .stairdivarea .owl-dots {
+    height: 16px;
+  }
+}

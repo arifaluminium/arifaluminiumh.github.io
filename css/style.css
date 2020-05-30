@@ -1,0 +1,489 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: stguide
+    Template URI: http://bootexperts.com
+    Description: This is html5 template
+    Author: BootExperts
+    Author URI: http://bootexperts.com
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+	
+    1. Theme Default CSS (body, link color, section etc)
+
+-----------------------------------------------------------------------------------*/
+
+/*----------------------------------------*/
+/*  1.  Theme default CSS
+/*----------------------------------------*/
+
+.jquery{
+	width:80px;
+	height:20px;
+	border:1px solid #00ff00;
+};
+
+
+
+
+html, body {height: 100%; font-family: 'Montserrat', sans-serif; font-family: 'Raleway', sans-serif;}
+.floatleft {float:left}
+.floatright {float:right}
+.alignleft {float:left;margin-right:15px;margin-bottom: 15px}
+.alignright {float:right;margin-left:15px;margin-bottom: 15px}
+.aligncenter {display:block;margin:0 auto 15px}
+a:focus {outline:0px solid}
+img {max-width:100%;height:auto}
+.fix {overflow:hidden}
+p {margin:0 0 15px;}
+p {font-size:16px;
+	font-weight:400;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 10px;
+}
+li{
+list-style:none;
+}
+a {transition: all 0.3s ease 0s;text-decoration:none;}
+a:hover {
+  color: #ec4445;
+  text-decoration: none;
+}
+a:active, a:hover {
+  outline: 0 none;
+}
+ul{
+list-style: outside none none;
+margin: 0;
+padding: 0
+}
+.clear{clear:both}
+body {}
+.mg-6o{
+	margin:60px 0;
+}
+/* Header Top CSS start */
+.header-top-area {
+	background:#09ab8b;
+}
+.main-manu-nav{
+	width:100%;
+	height:72px;
+	font-family:Montserrat;
+}
+.main-manu-nav .main-manu li{
+	display:inline-block;
+	color:#fff;
+	top:50%;
+	margin-top:16px;
+}
+.main-manu-nav .main-manu li p{
+	padding:10px;
+}
+.main-manu-nav .follow{
+	float:right;
+}
+.main-manu-nav .follow li{
+	display:inline-block;
+	color:#fff;
+	top:50%;
+	margin-top:13px;
+	padding-left:10px;
+}
+.main-manu-nav .follow i{
+	padding-left:5px;
+}
+.main-manu-nav .follow .sociul-icon{
+	padding-left:10px;
+	display:inline-block;
+	top:50%;
+	margin-top:13px;
+	color:#fff;
+}
+.main-manu-nav .follow p,.follow .sociul-icon i{
+	font-size:14px;
+	color:#fff;
+}
+/* Header Top CSS close */
+/* Header CSS start */
+.heder-area{
+	background:#fff;
+}
+.heder-area .headar-manu{
+	width:100%;
+	height:90px;
+}
+.heder-area .headar-manu .heder-icon{
+	display:inline-block;
+	top:50%;
+	margin-top:20px;
+}
+.headar-manu .manu-nav{
+	position:relative;
+}
+.headar-manu .manu-nav .dropdown-manu-nav{
+	position:absolute;
+	height:40px;
+	width:100px;
+	color:#000;
+	visibility:hidden;
+	z-index:;
+	transition:all .4s ease 0s;
+	top:30px;
+}
+.headar-manu .manu-nav li:hover .dropdown-manu-nav{
+	z-index:9;
+	height:400px;
+	width:100px;
+	color:#000;
+	display:visible;
+	background:#fff;
+	top:60px;
+	transition:all .4s ease 0s;
+	visibility:visible;
+}
+.headar-manu .manu-nav li{
+	display:inline-block;
+	color:#444;
+	font-weight:600;
+	font-size:16px;
+	top:50%;
+	margin-top:34px;
+	padding-left:10px;
+}
+.headar-manu .manu-nav li a{
+	color:#444;
+}
+.headar-manu .manu-nav{
+	float:right;
+}
+/*Header CSS-------close*/
+/*experience-area-------start*/
+.experience-area .experience .country-heading h2 {
+	font-size:20px;
+	font-weight:500;
+	color:#444;
+	margin-top:15px;
+}
+.experience-area .experience-details {
+	margin-top:15px;
+}
+.experience-area .experience .ex-icon {
+	margin-top:7px;
+}
+.experience-area .ex-phara {
+	line-height: 24px;
+	margin-left: 88px;
+	margin-bottom:20px;
+}
+.ex-icon {
+	float: left;
+	padding: 5px 14px;
+	border:1px solid #898989;
+	color: #09ab8b;
+	border-radius: 8px;
+	font-size: 40px;
+}
+
+/*experience-area-------close*/
+/*coundown-area -------start*/
+.coundown-area .coundown-image{
+	margin:0;
+	padding:0;
+	margin-top:60px;
+}
+.coundown-area {
+	background: url(img/image/5home-4.jpg) no-repeat scroll 0 0 / cover;
+	margin-top:60px;
+	height:400px;
+}
+/*coundown-area-area-------close*/
+/*upcoming-event-area start*/
+.upcoming-event-area .upcoming-title {
+	text-align:center;
+}
+.upcoming-event-area .upcoming-title h1{
+	font-size:30px;
+	font-weight:700;
+	color:#111;
+}
+.upcoming-event-area .upcoming-title h2{
+	font-size:19px;
+	font-weight:500;
+}
+.upcoming-event-area .upcoming-title i{
+	text-align:center;
+	font-size:40px;
+	color:#000;
+}
+.upcoming-event-area .upcoming-title h4, h5,i{
+	text-align:center;
+	display:inline-block;
+}
+.Upcoming-area-bg{
+	background: url(img/image/6home-4.jpg) no-repeat scroll 0 0 / cover;
+}
+.Upcoming-area-bg .Upcomimg-bg{
+	background:#f1f1f1;
+	
+	position:relative;
+}
+.Upcoming-area-bg .Upcomimg-bg .upcoming-details {
+	float:right;
+	padding:20px;
+	position:absolute;
+}
+/*upcoming-event-area close*/
+/*play-ground-area-------start*/
+.play-ground-area .playing-field{
+	margin-top:159px;
+	position:relative;
+}
+.play-ground-area .playing-field .title-bg .bg-skew {
+	height: 50px;
+	width: 570px;
+	background: #09ab8b;
+	transform: skewX(-35deg);
+	color: #fff;
+	text-align: center;
+	position: absolute;
+	z-index: 9;
+	line-height: 50px;
+	font-size: 20px;
+	font-weight: 500px;
+	margin-top: -159px;
+	margin-left: 285px;
+}.play-ground-area .playing-field .title-bg p{
+	height: 50px;
+	width: 570px;
+	color: #fff;
+	text-align: center;
+	position: absolute;
+	z-index: 9;
+	line-height: 50px;
+	font-size: 20px;
+	font-weight: 500px;
+	margin-top: -159px;
+	margin-left: 285px;
+}
+.play-ground-area .play-ground-1 img{
+	border-radius:35px 0px 0px 0px;
+	position:absolute;
+}
+.play-ground-area .play-ground-3 img{
+	border-radius:0px 0px 35px 0px;
+	position:absolute;
+}
+/*play-ground-area-------close*/
+/*school-details-area-------start*/
+.top-search-area .background-skew{
+	position:relative;
+	
+}
+.top-search-area .background-skew-2{
+	height:60px;
+	border-bottom: 60px solid #fa0af7;
+	border-left: 35px solid transparent;
+}
+.top-search-area .background-skew-2 img{
+	height:60px;
+	
+}
+.top-search-area .background-skew h1{
+	height:60px;
+	background:#005555;
+}
+.school-details .details {
+	position:relative;
+	margin-top:60px;
+}
+.school-details .details .skew-bg-1{
+	height:60px;
+	width:1170px;
+	background:#f1f1f1;
+	transform:skewX(-35deg);
+	position:absolute;
+	margin-top:120px;
+	margin-left: 75px;
+}
+.school-details .details .skew-bg-2{
+	height:60px;
+	width:270px;
+	background:#f1f1f1;
+	transform:skewX(-35deg);
+	position:absolute;
+	margin-top:240px;
+	margin-left: 75px;
+}
+.school-details .details .skew-bg-3{
+	height:60px;
+	width:270px;
+	background:#f1f1f1;
+	transform:skewX(-35deg);
+	position:absolute;
+	margin-top:240px;
+	margin-left: 374px;
+}
+.school-details .details .skew-bg-4{
+	height:60px;
+	width:270px;
+	background:#f1f1f1;
+	transform:skewX(-35deg);
+	position:absolute;
+	margin-top:240px;
+	margin-left: 673px;
+}
+.school-details .details .skew-bg-5{
+	height:60px;
+	width:270px;
+	background:#f1f1f1;
+	transform:skewX(-35deg);
+	position:absolute;
+	margin-top:240px;
+	margin-left: 972px;
+}
+.school-details .details img{
+	height:400px;
+	width:100%;
+}
+.school-details .details .icon-font{
+	
+	position:absolute;
+}
+.school-details .details .icon-font i{
+	font-size:40px;
+	z-index:9;
+	position:absolute;
+	margin-top:120px;
+	margin-left: 75px;
+}
+/*school-details-area-------close*/
+/*academic-news-area-------start*/
+.academic-news-area .academi{
+	height:400px;
+	width:100%;
+	background:#eef2f3;
+	margin-top:120px;
+}
+.top-search-area .top-product-single{
+	position:relative;
+}
+.top-search-area .top-product-single .img-content{
+	position:absolute;
+	top: 0px;
+	color: #fff;
+}
+.top-search-area .top-product-single .img-content i{
+	font-size:50px;
+	color:#f1f1f1;
+	padding-left:10px;
+}
+.top-search-area .top-product-single .img-content h2{
+	
+}
+.top-search-area .top-product-single .img-content p{
+	
+}
+}
+.academic-news-area .academi .academic-news img{
+	margin-top:-60px;
+	margin-left:60px;
+}
+.academic-news-area .ac-news .news-details {
+	float:right;
+}
+.top-product-single {
+	background:#f1f1f1;
+}
+.top-product-single a {
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px solid #000;
+    color: #000;
+    background: #fff;
+    padding: 5px 10px;
+}
+.top-product-single h3{
+	font-size:18px;
+	font-weight:500;
+	margin-top:20px;
+}
+.top-product-list .col-lg-4{
+	width:100%;
+}
+.top-product-list .top-product-single{
+	height:389px;
+	text-align:center;
+}
+/*academic-news-area-------close*/
+/*student-say-area-------start*/
+.student-say-area .student{
+	text-align:center;
+	position:relative;
+	display:inline-block;
+}
+.student-say-area .student.student-say{
+	text-align:center;
+	position:absolute;
+	padding-top: 50%;
+}
+
+
+
+/*student-say-area-------close*/
+
+
+
+.cdown {
+	display: inline-block;
+	padding: 0px 20px;
+}
+.social-img-1, .social-img-2, .social-img-3{
+	position:absolute;
+	bottom:0;
+	z-index:999999;
+}
+.social-img-1{
+	left:0;
+}
+.social-img-2{
+	left:10%;
+}
+.social-img-3{
+	left:20%;
+}
+.student-say {
+	margin:76px 0px;
+	text-align: left;
+	padding:0px 20px;
+	 border-width:0px 0px 0px 5px;  
+    border-style:dashed dashed dashed dashed;
+}
+.student-say1 {
+	padding: 135px 0px;
+}
+
+
+
+
+.acamic-bg{
+	background:#f1f1f1;
+}
+.academic-news img{
+	margin-top:-50px;
+	padding-left:50px;
+	padding-bottom:50px;
+}
+
+
+
+
+
+
+
+
+
