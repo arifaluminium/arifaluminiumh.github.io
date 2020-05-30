@@ -1,0 +1,213 @@
+html,
+body {
+  height: 100%;
+  font-family: "Montserrat";
+}
+
+a:focus {
+  outline: 0px solid;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  line-height: 0px;
+  display: unset;
+}
+
+h3 {
+  padding: 10px;
+  background: #ddd;
+  width: 100%;
+}
+
+button {
+  width: 125px;
+  margin: 3px;
+}
+
+.heddiv h4 {
+  border-bottom: 2px solid #fff;
+  padding-bottom: 10px;
+}
+
+.finaldiv a {
+  color: #fff;
+  font-weight: bold;
+}
+
+.licdi {
+  width: 100%;
+  position: relative;
+  background: #ddd;
+  padding: 10px;
+}
+
+.liccon {
+  color: #00bcd4;
+  padding-top: 7px;
+}
+
+.pad60 {
+  padding: 20px 0px;
+}
+
+.hederTopArea {
+  width: 100%;
+  height: 60px;
+  background-color: darkturquoise;
+  text-align: center;
+  position: relative;
+}
+
+.heder-manu .manu-nav {
+  float: right;
+}
+
+.heder-manu .manu-nav li {
+  font-size: 20px;
+  display: inline-block;
+  line-height: 60px;
+  padding: 0px 10px;
+  transition: background 1s;
+  color: #fff;
+}
+
+.heder-manu .manu-nav li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.heder-manu .manu-nav li:hover {
+  background: #000;
+}
+
+.heder-manu .icon {
+  left: 10px;
+  float: left;
+}
+
+.slider .imgdetail {
+  background: darkturquoise;
+  text-align: center;
+}
+
+.slider .imgdetail span {
+  color: yellow;
+}
+
+.hedding .heddiv {
+  height: 100%;
+  text-align: center;
+  padding: 15px;
+  box-shadow: 10px 10px 5px -3px #ccc;
+}
+
+.hedding .heddiv .biodata {
+  padding: 15px 15px;
+  line-height: 15px;
+  border: 1px solid #fff;
+  margin-bottom: 15px;
+}
+
+.hedding .alupro img {
+  height: 320px;
+}
+
+/* code product */
+.owltoww img,
+.smallkitchen .kitimg img,
+.doordivarea .doordiv img {
+  height: 470px;
+}
+.owltoww,
+.owlthree img {
+  position: relative;
+}
+
+.codeproduct {
+  height: 30px;
+  background: darkturquoise;
+  padding: 3px;
+  border-radius: 4px;
+  border: 1px solid #888;
+  position: absolute;
+  z-index: 9999;
+}
+
+/* owl-carousel nav */
+
+.kitchen,
+.smallkitchen,
+.windowdivarea,
+.boxdivarea,
+.doordivarea,
+.curtaindivarea,
+.safetdivarea,
+.stairdivarea {
+  display: none;
+}
+
+.kitchen .kitimg img,
+.smallkitchen .kitimg img,
+.windowdivarea .windowdiv img,
+.boxdivarea .kitchen img,
+.doordivarea .doordiv img,
+.curtaindivarea .curtaindiv img,
+.safetdivarea .safetdiv img,
+.stairdivarea .stairdiv img {
+  position: relative;
+}
+
+.kitchen .owl-nav,
+.smallkitchen .owl-nav,
+.windowdivarea .owl-nav,
+.boxdivarea .owl-nav,
+.doordivarea .owl-nav,
+.curtaindivarea .owl-nav,
+.safetdivarea .owl-nav,
+.stairdivarea .owl-nav {
+  top: 80%;
+  color: #dc3545;
+  left: 40%;
+  font-size: xxx-large;
+  position: absolute;
+}
+
+.kitchen .kitimg p,
+.smallkitchen .kitimg p,
+.windowdivarea .windowdiv p,
+.boxdivarea .boxdiv p,
+.doordivarea .doordiv p,
+.curtaindivarea .curtaindiv p,
+.safetdivarea .safetdiv p,
+.stairdivarea .stairdiv p {
+  position: absolute;
+  color: white;
+  z-index: 1;
+  left: 16%;
+  font-size: 20px;
+  background: darkturquoise;
+  border-radius: 4px;
+  border: 1px solid #888;
+  bottom: 0px;
+}
